@@ -1,0 +1,115 @@
+🎯 Project Overview
+
+Knowledge Discovery & Internal Search is a web application that helps marketing teams instantly find documents across their organization. The system automatically indexes uploaded files and provides fast, full-text search with intelligent categorization.
+
+🌟 Key Features
+📤 Multi-format Upload: Support for TXT, PDF, DOCX files
+
+🔍 Instant Full-Text Search: Powered by Whoosh search engine
+
+🏷️ Auto-Categorization: Automatically classifies documents (Reports, Campaigns, Presentations, etc.)
+
+⚡ Real-time Indexing: Files are searchable immediately after upload
+
+📊 Smart Filtering: Filter search results by category
+
+👁️ Document Preview: See content snippets before downloading
+
+⬇️ One-Click Download: Easy file retrieval
+
+🎨 Modern UI: Clean, responsive design with React
+
+🛠️ Tech Stack
+Backend:
+
+Python 3.8+
+
+Flask (Web framework)
+
+Whoosh (Full-text search engine)
+
+PyPDF2 (PDF text extraction)
+
+python-docx (Word document processing)
+
+Frontend:
+
+React 18
+
+Vite (Build tool)
+
+Axios (HTTP client)
+
+Modern CSS with gradients
+
+📋 Prerequisites
+Python 3.8 or higher
+
+Node.js 16+ and npm
+
+100MB free disk space
+
+🚀 Installation & Setup
+Backend Setup
+
+# Navigate to backend directory
+cd backend
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Windows:
+venv\Scripts\activate
+# On Mac/Linux:
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Flask server
+python app.py
+Backend will run on http://localhost:5000
+
+Frontend Setup
+
+# Navigate to frontend directory
+cd frontend
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+Frontend will run on http://localhost:5173
+
+📖 Usage Guide
+Upload Documents
+
+Click "Choose File" button
+
+Select a TXT, PDF, or DOCX file
+
+Click "Upload Document"
+
+File is automatically indexed
+
+Search Documents
+
+Type keywords in the search bar
+
+Press Enter or click "Search"
+
+Results appear instantly
+
+Filter Results
+
+Use the sidebar to filter by category
+
+Categories: All, Reports, Campaigns, Presentations, Documentation, General
+
+Download Files
+
+Click "Download" button on any result card
+
+File downloads to your default location
