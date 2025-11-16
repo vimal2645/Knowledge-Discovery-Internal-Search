@@ -2,10 +2,8 @@ import React from 'react';
 
 function ResultCard({ result }) {
   const handleDownload = () => {
-    window.open(
-      `http://localhost:5000/api/download/${result.filename}`,
-      '_blank'
-    );
+    window.open(`https://knowledge-discovery-internal-search-d87d.onrender.com/api/download/${result.filename}`, '_blank');
+
   };
 
   const getCategoryEmoji = (category) => {

@@ -5,7 +5,7 @@ import UploadForm from './components/UploadForm';
 import ResultCard from './components/ResultCard';
 import FilterSidebar from './components/FilterSidebar';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://knowledge-discovery-internal-search-d87d.onrender.com/api';
 
 function App() {
   const [results, setResults] = useState([]);
